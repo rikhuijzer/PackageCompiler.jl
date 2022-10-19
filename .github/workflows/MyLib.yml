@@ -26,6 +26,6 @@ jobs:
       - run: |
           cd examples/MyLib
           make
-      - run: ./my_application.out
+      - run: ./examples/MyLib/my_application.out
         env:
           LD_LIBRARY_PATH: 'examples/MyLib/MyLibCompiled/lib'
